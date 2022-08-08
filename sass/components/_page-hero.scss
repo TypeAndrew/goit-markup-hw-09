@@ -1,4 +1,5 @@
 .hero {
+    overflow-x: hidden;
     background: $background-hero;
     
     background-repeat: no-repeat;
@@ -56,8 +57,9 @@
              @media screen and (max-width: 1199px) {
                  font-size: 26px;
                  line-height: 1.61;
-                 //width: 360px;
+                // width: 320px;
                  width: 100%;
+                 min-width: 320px;
              }
     
              @media screen and (min-width: 1200px) {

@@ -4,6 +4,7 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
   margin: 0;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -462,6 +463,7 @@ ul, li {
 }
 
 .hero {
+  overflow-x: hidden;
   background: #2F303A;
   background-repeat: no-repeat;
   background-size: cover;
@@ -532,7 +534,8 @@ ul, li {
   .hero__title {
     font-size: 26px;
     line-height: 1.61;
-    width: 360px;
+    width: 100%;
+    min-width: 320px;
   }
 }
 @media screen and (min-width: 1200px) {
