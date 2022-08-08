@@ -1171,7 +1171,6 @@ ul, li {
 @media screen and (min-width: 1200px) {
   .footer__all {
     display: flex;
-    align-items: baseline;
   }
 }
 .footer__container {
