@@ -598,7 +598,12 @@ ul, li {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 360px) {
+  .modal {
+    width: 340px;
+  }
+}
+@media screen and (min-width: 361px) and (max-width: 479px) {
   .modal {
     width: 100%;
   }
@@ -630,6 +635,13 @@ ul, li {
   cursor: pointer;
   padding: 0;
 }
+@media screen and (max-width: 320px) {
+  .modal__close-btn {
+    top: 18px;
+    width: 25px;
+    height: 25px;
+  }
+}
 .modal__close-btn:hover, .modal__close-btn:focus {
   fill: #2196F3;
 }
@@ -652,7 +664,12 @@ ul, li {
   color: #212121;
   margin-bottom: 12px;
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 360px) {
+  .form__title {
+    min-width: 300px;
+  }
+}
+@media screen and (min-width: 361px) and (max-width: 1199px) {
   .form__title {
     width: 370px;
   }
@@ -692,7 +709,12 @@ ul, li {
 .form__textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 360px) {
+  .form__textarea {
+    min-width: 290px;
+  }
+}
+@media screen and (min-width: 361px) and (max-width: 1199px) {
   .form__textarea {
     width: 370px;
   }
@@ -733,7 +755,7 @@ ul, li {
 .form__input:hover, .form__input:focus {
   border-color: #2196F3;
 }
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 361px) and (max-width: 1199px) {
   .form__input {
     min-width: 370px;
   }
@@ -742,6 +764,11 @@ ul, li {
   .form__input {
     width: 448px;
     height: 40px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .form__input {
+    min-width: 290px;
   }
 }
 .form__input-label {
@@ -778,7 +805,12 @@ ul, li {
   border-radius: 3px;
   margin-right: 7px;
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 360px) {
+  .form__terms-text {
+    min-width: 80px;
+  }
+}
+@media screen and (min-width: 361px) and (max-width: 1199px) {
   .form__terms-text {
     min-width: 232px;
   }
