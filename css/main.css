@@ -635,7 +635,7 @@ ul, li {
   cursor: pointer;
   padding: 0;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .modal__close-btn {
     top: 18px;
     width: 25px;
